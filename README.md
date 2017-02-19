@@ -80,7 +80,7 @@ function timer(date){
 			// keeps the live stream button div element on the screen for 2 hours or 7200000 milliseconds and then
 			serviceInSession = setTimeout(()=>{
 				livestreamButton.classList.add("hide");// hide live stream button div element
-				calculateFutureDate(date);// past the date that countdown was counting down to, to the calculateFutureDate function
+				calculateFutureDate(date);// pass the date that countdown was counting down to, to the calculateFutureDate function
 				clock.classList.remove("hide");// show the clock again
 			},7200000); // after 2 hours do what's inside the setTimeout function
 			return;
@@ -111,7 +111,7 @@ function timeLeft(time){
 function calculateFutureDate (dateTochange){	
 		const newDate = new Date(dateTochange);// converts it to date format
 		const weeklyDate  = newDate.setDate(newDate.getDate() +07);// adds 7 days to that date
-		timer(weeklyDate);// sends it to the timer function
+		timer(weeklyDate);// pass it to the timer function
 		//console.log("new: "+dateTochange);		
 }
 // liveStream function changes the webpage to the webpage where the live stream is hosted
