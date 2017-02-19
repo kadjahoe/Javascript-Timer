@@ -27,7 +27,7 @@ Email    : support@manifestare.com
 <body>
 	<div class="display">
 		<div id="clock" class="clock">
-			<h1 class="event_title">CLCC Goes Live in</h1>
+			<h1 class="event_title">Live Event Starts in</h1>
 			<div id="numbers">
 				<span class="days"></span>
 				<span class="hours"></span>
