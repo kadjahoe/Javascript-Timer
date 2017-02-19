@@ -1,7 +1,7 @@
 # Javascript-Timer
 A javascript countdown clock or timer with beautiful HTML and CSS styling that is simple to use in any project or on any website.
 
-<a href="www.preview.manifestare.com/javascript timer">javascript timer DEMO</a>
+<a href="www.preview.manifestare.com/javascript timer/index.html">javascript timer DEMO</a>
 ```
 Title    : JavaScript Countdown Clock  				
 Author   : Katherine Adjahoe           				  
