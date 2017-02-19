@@ -42,9 +42,9 @@ Email    : support@manifestare.com
 			</div>
 		</div>
 		<div id="door" class="hide">
-			<h1 class="event_title">CLCC Is Live</h1>
-			<p class="action_caption">Click the button below to enter CLCC Live Stream</p>
-			<button class="call_to_action_button" type="button" onclick="liveStream()">Enter CLCC Live Stream!</button>
+			<h1 class="event_title">Event Is Live</h1>
+			<p class="action_caption">Click the button below to enter Live Stream</p>
+			<button class="call_to_action_button" type="button" onclick="liveStream()">Enter Live Stream!</button>
 		</div>
 		<div class="author">Created by Katherine Adjahoe</div>
 	</div>
@@ -199,11 +199,17 @@ button:focus{
 	border-radius: 20px;
 	box-sizing: border-box;
 }
-#numbers span:nth-child(odd){
-	background: #0074D9;
+#numbers span:nth-child(1){
+  background: #fa5559;
 }
-#numbers span:nth-child(even){
-	background: #0074D9;
+#numbers span:nth-child(2){
+  background: #26c2b9;
+}
+#numbers span:nth-child(3){
+  background: #f6bc58;
+}
+#numbers span:nth-child(4){
+  background: #2dcb74;
 }
 
 #numbers:after{
