@@ -2,13 +2,13 @@
 A javascript countdown clock or timer with beautiful HTML and CSS styling that is simple to use in any project or on any website.
 
 ```
-javascript timer DEMO @ www.preview.manifestare.com/javascript timer/index.html
+javascript timer DEMO @ www.preview.manifestare.com/javascript%20timer/index.html
 
 
 Title    : JavaScript Countdown Clock  				
 Author   : Katherine Adjahoe           				  
 Created  : February 18, 2017           				 
-Website  : www.preview.manifestare.com/javascript timer
+Website  : www.preview.manifestare.com/javascript%20timer
 Email    : support@manifestare.com 
 ```
 ### HTML code
@@ -46,7 +46,7 @@ Email    : support@manifestare.com
 			<p class="action_caption">Click the button below to enter CLCC Live Stream</p>
 			<button class="call_to_action_button" type="button" onclick="liveStream()">Enter CLCC Live Stream!</button>
 		</div>
-		<div class="author">Created by Katherine Lawrence</div>
+		<div class="author">Created by Katherine Adjahoe</div>
 	</div>
 	<script src="timer.js"></script>
 </body>
