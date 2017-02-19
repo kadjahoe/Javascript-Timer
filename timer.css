@@ -1,0 +1,133 @@
+/**********************************************************
+*										 				  *
+* Title    : JavaScript Countdown Clock  				  *
+* Author   : Katherine Adjahoe           				  *
+* Created  : February 18, 2017           				  *
+* Website  : www.preview.manifestare.com/javascript timer *
+* Email    : support@manifestare.com     				  *
+*										 				  *
+***********************************************************/
+
+.display {
+	flex: 1;
+	display: flex;
+	flex-direction : column;
+	align-items : center;
+	justify-content : center;
+	background: #001f3f;
+	font-family: tahoma !important;
+	padding-bottom: 60px;
+}
+.event_title {
+	color: #fff;	
+	text-align: center;
+	font-size: 74px;
+	letter-spacing: 10px;
+}
+p.action_caption{
+	color: #fff;	
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 5px;
+	font-weight: 100;
+}
+#door{
+	text-align: center;
+}
+.call_to_action_button{
+	margin-top: 40px;
+	border-radius: 20px;
+}
+button.call_to_action_button {
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 16px;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	padding: 20px;
+	width: 0 auto;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background: #0074D9;
+	border-style: none;
+}
+button:hover{
+	background: #fff;
+	color: #0074D9;
+	font-weight: bold;
+}
+button:active{
+	background: #fff;
+	color: #0074D9;
+	font-weight: bold;
+}
+button:focus{
+	background: #fff;
+	color: #0074D9;
+	font-weight: bold;
+}
+.clock{
+	width: auto;
+}
+#numbers{
+	width: auto;
+}
+#numbers span{
+	float: left;
+	text-align: center;
+	font-size: 60px;
+	margin: 0 2.5%;
+	color: #fff;
+	padding: 20px;
+	width: 20%;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+#numbers span:nth-child(odd){
+	background: #0074D9;
+}
+#numbers span:nth-child(even){
+	background: #0074D9;
+}
+
+#numbers:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#units span{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: 30px;
+	color: #ddd;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+span.turn{
+  	animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn{
+	0%{transform: rotateX(0deg)}
+	100%{transform: rotateX(360deg)}
+}
+
+.hide{
+	display: none;
+}
+
+.author{
+	padding-top: 60px;
+	color: #fff;	
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
