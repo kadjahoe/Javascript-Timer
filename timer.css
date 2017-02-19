@@ -84,11 +84,17 @@ button:focus{
 	border-radius: 20px;
 	box-sizing: border-box;
 }
-#numbers span:nth-child(odd){
-	background: #0074D9;
+#numbers span:nth-child(1){
+  background: #fa5559;
 }
-#numbers span:nth-child(even){
-	background: #0074D9;
+#numbers span:nth-child(2){
+  background: #26c2b9;
+}
+#numbers span:nth-child(3){
+  background: #f6bc58;
+}
+#numbers span:nth-child(4){
+  background: #2dcb74;
 }
 
 #numbers:after{
