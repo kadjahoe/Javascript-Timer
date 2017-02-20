@@ -123,7 +123,7 @@ function liveStream (){
 ### CSS code for styling
 
 ```css
-/* CSS Design is influence by the Net ninja */
+/* CSS Design is influenced by the Net ninja on YouTube */
 
 .display {
 	flex: 1;
