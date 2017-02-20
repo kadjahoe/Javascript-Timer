@@ -9,7 +9,9 @@ Title    : JavaScript Countdown Clock
 Author   : Katherine Adjahoe           				  
 Created  : February 18, 2017           				 
 Website  : www.preview.manifestare.com/javascript%20timer
-Email    : support@manifestare.com 
+Email    : support@manifestare.com
+
+CSS Design is influenced by the Net ninja on YouTube
 ```
 ### HTML code
 ```html
